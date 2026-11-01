@@ -1,0 +1,46 @@
+{
+  "id": "ChIJUWhyopvr3TsRy3nljZY9-kY",
+  "lane": "a",
+  "name": "Tejaswi Jewellers Jawaharlal Motilal saraf",
+  "category": "jewellers",
+  "city": "Nashik",
+  "address": "Shop no.3,4,5, Bhagyashree apt, College Rd, opp. Hotel Ashwin, Adwait Colony, Canada Corner, Nashik, Maharashtra 422005",
+  "phone": "+91 77670 22000",
+  "website": null,
+  "rating": 4.6,
+  "reviews": 1402,
+  "maps_url": "https://maps.google.com/?cid=5114468043667634635&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "primary_type": "jewelry_store",
+  "types": "[\"jewelry_store\",\"wholesaler\",\"store\",\"point_of_interest\",\"service\",\"establishment\"]",
+  "photos": [
+    "photos/1.jpg",
+    "photos/2.jpg",
+    "photos/3.jpg",
+    "photos/4.jpg",
+    "photos/5.jpg",
+    "photos/6.jpg"
+  ],
+  "status": "new",
+  "score": 98,
+  "tier": "hot",
+  "score_reason": "no website, 1402 reviews, rated 4.6",
+  "found_at": "2026-10-31T11:55:25.973Z",
+  "updated_at": "2026-10-31T11:55:55.187Z",
+  "review_quotes": [
+    {
+      "author": "radhika zanwar",
+      "rating": 4,
+      "text": "Found lots of varieties in bangles and Mangalsutra- that's what we were looking for, Staff is well mannered, place is good, parking available. Only found making charges little on higher side but that's usual case nowadays"
+    },
+    {
+      "author": "Chhaya patel",
+      "rating": 5,
+      "text": "Tejaswi Jewellers is best jewellery shop in Nashik they have exclusive collection of Diamond jewellery, Silver Jewellery, platinum jewellery, GEMS jewellery and Gold jewellery. 💯% trusted jewellery shop in Nashik. Must visit if you want to buy exclusive Jewellery"
+    },
+    {
+      "author": "Pranali Raut",
+      "rating": 5,
+      "text": "Tejaswi Jewellers in Nashik is a trusted place for beautiful gold and silver jewellery. They have a wide variety of modern as well as traditional designs, with good finishing and quality. The staff is polite, helpful, and guides you well in choosing the right piece. Prices are fa"
+    }
+  ]
+}

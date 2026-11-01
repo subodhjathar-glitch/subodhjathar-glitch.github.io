@@ -1,0 +1,46 @@
+{
+  "id": "ChIJb1flZTey5zsR22-rbXuaczo",
+  "lane": "a",
+  "name": "Ocean Hills Pereira Farms Uttan",
+  "category": "resort",
+  "city": "Mumbai",
+  "address": "Bhate bunder, nr Velankini church, Dongri, Uttan, Mira Bhayandar, Maharashtra 401106",
+  "phone": "+91 98211 65378",
+  "website": null,
+  "rating": 4.4,
+  "reviews": 2340,
+  "maps_url": "https://maps.google.com/?cid=4211879931433152475&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "primary_type": "resort_hotel",
+  "types": "[\"resort_hotel\",\"hotel\",\"lodging\",\"point_of_interest\",\"establishment\"]",
+  "photos": [
+    "photos/1.jpg",
+    "photos/2.jpg",
+    "photos/3.jpg",
+    "photos/4.jpg",
+    "photos/5.jpg",
+    "photos/6.jpg"
+  ],
+  "status": "new",
+  "score": 95,
+  "tier": "hot",
+  "score_reason": "no website, 2340 reviews, rated 4.4",
+  "found_at": "2026-11-01T04:01:35.706Z",
+  "updated_at": "2026-11-01T04:01:35.707Z",
+  "review_quotes": [
+    {
+      "author": "Alan Mascarenhas",
+      "rating": 5,
+      "text": "We visited Ocean Hills Resort in Uttan as a group of 6 classmates on Aug 10-11 and had a great time overall. The location offers a lovely, relaxed coastal vibe away from the city hustle. Our rooms were clean, comfortable, and well-maintained, easily accommodating our group. We sp"
+    },
+    {
+      "author": "Raylet Rodrigues",
+      "rating": 4,
+      "text": "Resort is very good with places for selfie photos. Its well maintained and clean. The only thing is its located at a slope so elder may find it difficult. Food was good...Usually resorts dont offer mutton but they had mutton in the dinner menu and fish curry in the afternoon menu"
+    },
+    {
+      "author": "Jayesh Sharma",
+      "rating": 5,
+      "text": "This is budget paradise at the edge of Mumbai where you can plan a weekend with loved ones and family. A pocket of green with smartly planned rooms and a Insta friendly ambience. Fresh Sea food but other than that food is pretty okay. Vegetarians don't have my hope at all from th"
+    }
+  ]
+}

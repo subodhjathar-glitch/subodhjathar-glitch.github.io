@@ -1,0 +1,46 @@
+{
+  "id": "ChIJ1YaJVJGV3TsRF4k2mGGGE2w",
+  "lane": "a",
+  "name": "Perfect Coaching Classes",
+  "category": "coaching institute",
+  "city": "Nashik",
+  "address": "C-13, Iswar Sankul B/H Regimental Plaza, Bytco Point, Gayakhe Colony, Nashik Road, Nashik, Maharashtra 422101",
+  "phone": "+91 98226 61307",
+  "website": null,
+  "rating": 4.8,
+  "reviews": 551,
+  "maps_url": "https://maps.google.com/?cid=7787715934377380119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "primary_type": null,
+  "types": "[\"point_of_interest\",\"establishment\"]",
+  "photos": [
+    "photos/1.jpg",
+    "photos/2.jpg",
+    "photos/3.jpg",
+    "photos/4.jpg",
+    "photos/5.jpg",
+    "photos/6.jpg"
+  ],
+  "status": "new",
+  "score": 94,
+  "tier": "hot",
+  "score_reason": "no website, 551 reviews, rated 4.8",
+  "found_at": "2026-10-31T11:55:30.443Z",
+  "updated_at": "2026-10-31T11:56:22.168Z",
+  "review_quotes": [
+    {
+      "author": "Kunaif Shaikh",
+      "rating": 5,
+      "text": "Perfect Coaching! I heard about perfect from my friends and there description was so convincing that I joined PCC in 10th std and the experience ahead was fantastic , in sir way it was झिंगाट . Every lecture was so amazing and teaching style of PCC teachers was so good . Speciall"
+    },
+    {
+      "author": "Kunaif Shaikh",
+      "rating": 5,
+      "text": "PCC FAREWELL !! It was not less than a club party . The party was so superb that I was shocked that a farewell can be this enjoyable.  The journey in PCC till now was amazing and this farewell made it more memorable.  Jokes of Purohit , funny compliments of sankut sir , one liner"
+    },
+    {
+      "author": "Sai Dhumal",
+      "rating": 5,
+      "text": "I am very happy to be part of this PCC (Perfect Coching Class) . The teachers explain every concept in a simple and clear way, which makes learning easy and interesting. Regular tests, proper guidance, and personal attention help students improve a lot. It is a great place for st"
+    }
+  ]
+}

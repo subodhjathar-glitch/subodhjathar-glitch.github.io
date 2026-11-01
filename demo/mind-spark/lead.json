@@ -1,0 +1,46 @@
+{
+  "id": "ChIJL1fy4pvr3TsRgg0_2XM8iZc",
+  "lane": "a",
+  "name": "Mind Spark",
+  "category": "coaching institute",
+  "city": "Nashik",
+  "address": "4th Floor, Nathseeta Yeolekar Complex, College Rd, above Hair Xpression, Yeolekar Mala, Ramdas Colony, Nashik, Maharashtra 422005",
+  "phone": "+91 94213 89738",
+  "website": null,
+  "rating": 4.7,
+  "reviews": 592,
+  "maps_url": "https://maps.google.com/?cid=10919325239800171906&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "primary_type": null,
+  "types": "[\"educational_institution\",\"point_of_interest\",\"establishment\"]",
+  "photos": [
+    "photos/1.jpg",
+    "photos/2.jpg",
+    "photos/3.jpg",
+    "photos/4.jpg",
+    "photos/5.jpg",
+    "photos/6.jpg"
+  ],
+  "status": "new",
+  "score": 94,
+  "tier": "hot",
+  "score_reason": "no website, 592 reviews, rated 4.7",
+  "found_at": "2026-10-31T11:55:30.447Z",
+  "updated_at": "2026-10-31T11:55:30.447Z",
+  "review_quotes": [
+    {
+      "author": "Prapti Gugale",
+      "rating": 5,
+      "text": "Mind spark academy has always excelled for its amazing results and being part of mind spark academy is even more amazing!\nThe quality of conceptual clarity and practical knowledge is delivered to students is really great\nBeside teachings of the books teachers are always willing t"
+    },
+    {
+      "author": "Kavya Patil",
+      "rating": 5,
+      "text": "Joining Mindspark Academy was the best decision. Each student is given personal attention. The faculties have deep knowledge in their particular subjects and are very friendly and approachable. The non teaching staff is also very amiable and supportive.\n\nThe teaching methods are "
+    },
+    {
+      "author": "Mahek Tathed",
+      "rating": 5,
+      "text": "Great coaching institute for commerce students. Experienced teachers, clear explanations, and proper test practice make learning easy and effective.\nIt’s a great place for anyone who wants quality coaching and excellent preparation for board exams."
+    }
+  ]
+}

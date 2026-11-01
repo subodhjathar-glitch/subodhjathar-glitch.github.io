@@ -1,0 +1,46 @@
+{
+  "id": "ChIJEdZoMa-V3TsRN8SAiL49sLI",
+  "lane": "a",
+  "name": "Ganesh Uttamrao Ashtekar and Sons saraf",
+  "category": "jewellers",
+  "city": "Nashik",
+  "address": "Vishal Building, Devi Chowk, behind old, Saraf Bazaar, Nashik Road, Nashik, Maharashtra 422101",
+  "phone": "+91 99701 61111",
+  "website": null,
+  "rating": 4.9,
+  "reviews": 580,
+  "maps_url": "https://maps.google.com/?cid=12875859223195468855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "primary_type": "jewelry_store",
+  "types": "[\"jewelry_store\",\"store\",\"point_of_interest\",\"establishment\"]",
+  "photos": [
+    "photos/1.jpg",
+    "photos/2.jpg",
+    "photos/3.jpg",
+    "photos/4.jpg",
+    "photos/5.jpg",
+    "photos/6.jpg"
+  ],
+  "status": "new",
+  "score": 98,
+  "tier": "hot",
+  "score_reason": "no website, 580 reviews, rated 4.9",
+  "found_at": "2026-10-31T11:55:25.974Z",
+  "updated_at": "2026-10-31T11:55:58.871Z",
+  "review_quotes": [
+    {
+      "author": "Suraj Valvi",
+      "rating": 5,
+      "text": "I got a gold necklace from them and the quality is awesome, there is genuine hallmark so no chance of quality issues. The staff here is friendly and very well behaved. The experience was nice. Will shop here again"
+    },
+    {
+      "author": "Akshay Nikshe",
+      "rating": 5,
+      "text": "Nice Ganesh Uttam Rao gold shop nice service nice product nice quality"
+    },
+    {
+      "author": "Gaurav Sahane",
+      "rating": 5,
+      "text": "Good service and gud works visit again agian"
+    }
+  ]
+}

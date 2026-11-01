@@ -1,0 +1,46 @@
+{
+  "id": "ChIJz0GKpVHr3TsRTse8LIoJ2Jc",
+  "lane": "a",
+  "name": "Curry Leaves, Indira Nagar - Hotel, Restaurant, Banquet, Rooms",
+  "category": "banquet hall",
+  "city": "Nashik Road",
+  "address": "Plot No. 22, Indira Nagar-Wadala Road Sawta Mali Rd, Parab Nagar, Wadala Gaon, Nashik, Maharashtra 422006",
+  "phone": "+91 94231 89995",
+  "website": null,
+  "rating": 4.5,
+  "reviews": 4909,
+  "maps_url": "https://maps.google.com/?cid=10941505783757326158&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "primary_type": "hotel",
+  "types": "[\"hotel\",\"diner\",\"banquet_hall\",\"vegetarian_restaurant\",\"extended_stay_hotel\",\"lodging\",\"event_venue\",\"real_estate_agency\",\"restaurant\",\"food\",\"point_of_interest\",\"service\",\"establishment\"]",
+  "photos": [
+    "photos/1.jpg",
+    "photos/2.jpg",
+    "photos/3.jpg",
+    "photos/4.jpg",
+    "photos/5.jpg",
+    "photos/6.jpg"
+  ],
+  "status": "new",
+  "score": 96,
+  "tier": "hot",
+  "score_reason": "no website, 4909 reviews, rated 4.5",
+  "found_at": "2026-11-01T04:01:22.082Z",
+  "updated_at": "2026-11-01T04:01:22.082Z",
+  "review_quotes": [
+    {
+      "author": "abel skaria",
+      "rating": 5,
+      "text": "I’ve stayed at this hotel twice, both times for more than 10 days, and I’ve had a very good experience on both occasions. The rooms are clean, spacious, comfortable, and well-maintained. The food is consistently good, with a great taste and variety.\n\nThe overall hospitality and s"
+    },
+    {
+      "author": "Gagan Grover",
+      "rating": 5,
+      "text": "Had family dinner here. Food is superbly delicious. Delivery is quick. Prices are reasonable.\nParking is available on the road.\nThough toilet is not sparingly clean. Something that should be worked on to really make it a five star restaurant."
+    },
+    {
+      "author": "Alim Shaikh",
+      "rating": 5,
+      "text": "\"Absolutely delicious and authentic pure vegetarian food with a great variety of options.\"\n\n\"The hygiene standards are top-notch, and the ingredients used feel incredibly fresh.\"\n\n\"A perfect spot for family dinners with a peaceful ambience and very polite staff.\"\n\n\"Great value fo"
+    }
+  ]
+}

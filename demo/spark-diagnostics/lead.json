@@ -1,0 +1,46 @@
+{
+  "id": "ChIJ1UY_Owzr3TsRwb14YSfEfDs",
+  "lane": "a",
+  "name": "Spark Diagnostics (Wellness)",
+  "category": "diagnostic centre",
+  "city": "Nashik",
+  "address": "Saikrupa, Ahilyadevi Holkar Road, Behind Divya Marathi Office, Chandak Cir, Mumbai Naka, Tidke Colony, Nashik, Maharashtra 422002",
+  "phone": "+91 253 405 6777",
+  "website": null,
+  "rating": 4.8,
+  "reviews": 3470,
+  "maps_url": "https://maps.google.com/?cid=4286516618767941057&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "primary_type": "medical_clinic",
+  "types": "[\"medical_lab\",\"medical_clinic\",\"doctor\",\"health\",\"point_of_interest\",\"service\",\"establishment\"]",
+  "photos": [
+    "photos/1.jpg",
+    "photos/2.jpg",
+    "photos/3.jpg",
+    "photos/4.jpg",
+    "photos/5.jpg",
+    "photos/6.jpg"
+  ],
+  "status": "new",
+  "score": 96,
+  "tier": "hot",
+  "score_reason": "no website, 3470 reviews, rated 4.8",
+  "found_at": "2026-10-31T11:55:20.262Z",
+  "updated_at": "2026-10-31T11:56:05.209Z",
+  "review_quotes": [
+    {
+      "author": "Mukund Shewale",
+      "rating": 5,
+      "text": "I had a very good experience at this diagnostic center. The staff is polite, cooperative, and well-trained. The center maintains high standards of cleanliness and hygiene, which made me feel comfortable and safe."
+    },
+    {
+      "author": "Om Borgad",
+      "rating": 5,
+      "text": "I recently visited Spark Diagnostics in Nashik and had an absolutely wonderful experience from start to finish. Booking an appointment was incredibly easy and hassle-free Upon arriving, I was immediately struck by how modern, wellmaintained and spotless the entire facility is. Th"
+    },
+    {
+      "author": "Sagar Behere",
+      "rating": 5,
+      "text": "I  had an MRI done at Spark Diagnostics.\n\nIt was a quick process. They have an excellent team. Everyone was very gentle, caring, and proactive. I’m extremely grateful and thankful for their professionalism."
+    }
+  ]
+}

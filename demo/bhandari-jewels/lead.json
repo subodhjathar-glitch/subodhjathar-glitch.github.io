@@ -1,0 +1,46 @@
+{
+  "id": "ChIJe5F4mIWV3TsR0f8YUJuEXbI",
+  "lane": "a",
+  "name": "Bhandari Jewels",
+  "category": "jewellers",
+  "city": "Nashik",
+  "address": "4-7 Datta Mandir Signal, DattaMandir, Nashik Road, Nashik, Maharashtra 422101",
+  "phone": "+91 70384 74567",
+  "website": null,
+  "rating": 4.8,
+  "reviews": 678,
+  "maps_url": "https://maps.google.com/?cid=12852574714183876561&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "primary_type": "jewelry_store",
+  "types": "[\"jewelry_store\",\"store\",\"point_of_interest\",\"establishment\"]",
+  "photos": [
+    "photos/1.jpg",
+    "photos/2.jpg",
+    "photos/3.jpg",
+    "photos/4.jpg",
+    "photos/5.jpg",
+    "photos/6.jpg"
+  ],
+  "status": "new",
+  "score": 98,
+  "tier": "hot",
+  "score_reason": "no website, 678 reviews, rated 4.8",
+  "found_at": "2026-10-31T11:55:25.968Z",
+  "updated_at": "2026-10-31T11:55:49.982Z",
+  "review_quotes": [
+    {
+      "author": "Jai Hind (Bhartiya)",
+      "rating": 5,
+      "text": "We always had good experience at bhandari jwellers. The owner as well as the staff are very very friendly & welcoming. One feels very comfortable in the environment compared to other jwellers."
+    },
+    {
+      "author": "Kamini Nikam",
+      "rating": 5,
+      "text": "It was great experience.Thank You"
+    },
+    {
+      "author": "tushar rao",
+      "rating": 5,
+      "text": "Very nice service\nAnd staff behavior is also very polite"
+    }
+  ]
+}

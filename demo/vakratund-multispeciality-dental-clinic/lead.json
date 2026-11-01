@@ -1,0 +1,46 @@
+{
+  "id": "ChIJ-fM90b_R5zsRXnJHsZyWe48",
+  "lane": "a",
+  "name": "Vakratund Multispeciality Dental Clinic",
+  "category": "dental clinic",
+  "city": "Mumbai",
+  "address": "Vakratund multispeciality dental clinic, 4-gala house;Ground Floor, Shop 10 Rajwadkar Street, Ganesh lane, market, Colaba, Mumbai, Maharashtra 400005",
+  "phone": "+91 98210 58974",
+  "website": null,
+  "rating": 5,
+  "reviews": 1243,
+  "maps_url": "https://maps.google.com/?cid=10339022969292419678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "primary_type": "dental_clinic",
+  "types": "[\"dental_clinic\",\"medical_clinic\",\"health\",\"point_of_interest\",\"establishment\"]",
+  "photos": [
+    "photos/1.jpg",
+    "photos/2.jpg",
+    "photos/3.jpg",
+    "photos/4.jpg",
+    "photos/5.jpg",
+    "photos/6.jpg"
+  ],
+  "status": "new",
+  "score": 96,
+  "tier": "hot",
+  "score_reason": "no website, 1243 reviews, rated 5",
+  "found_at": "2026-11-01T04:01:30.712Z",
+  "updated_at": "2026-11-01T04:01:30.712Z",
+  "review_quotes": [
+    {
+      "author": "Moez Kara",
+      "rating": 5,
+      "text": "Pramod is a very competent dentist.  He takes great care to make sure of doing a first class job. I live overseas and do all of my dental treatment in India.  I’ve been using him for almost 2 years. I have done quite a few implants with him and can recommend him for that though h"
+    },
+    {
+      "author": "Sunita Jagtap",
+      "rating": 5,
+      "text": "I had an excellent experience with Dr. Pramod. He removed my wisdom tooth along with another tooth, and the entire procedure was so smooth that I didn't even realize the surgery had been completed. It was completely painless and stress-free. Throughout the treatment, he explained"
+    },
+    {
+      "author": "Vikas Kumar",
+      "rating": 5,
+      "text": "Dr is very good and friendly. He explains very well to customers. I am so happy that i, stay in colaba. And I used to go, to Dadar for my dental treatment. But now I am not gonna go anywhere expect Dr. Vakratund. Good job Dr you gave me hope always that, u keep us smiling.💯"
+    }
+  ]
+}

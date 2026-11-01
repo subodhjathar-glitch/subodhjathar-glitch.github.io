@@ -1,0 +1,46 @@
+{
+  "id": "ChIJ-VxXMX3r3TsRCZyH-HvfCXE",
+  "lane": "a",
+  "name": "Ekveera Furniture Store",
+  "category": "furniture showroom",
+  "city": "Nashik",
+  "address": "MF-36, Shanti Nagar, Lekha Nagar, Nashik, Maharashtra 422009",
+  "phone": "+91 89754 56223",
+  "website": null,
+  "rating": 4.9,
+  "reviews": 1977,
+  "maps_url": "https://maps.google.com/?cid=8145287124619861001&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "primary_type": "furniture_store",
+  "types": "[\"furniture_store\",\"home_improvement_store\",\"home_goods_store\",\"store\",\"point_of_interest\",\"service\",\"establishment\"]",
+  "photos": [
+    "photos/1.jpg",
+    "photos/2.jpg",
+    "photos/3.jpg",
+    "photos/4.jpg",
+    "photos/5.jpg",
+    "photos/6.jpg"
+  ],
+  "status": "new",
+  "score": 96,
+  "tier": "hot",
+  "score_reason": "no website, 1977 reviews, rated 4.9",
+  "found_at": "2026-10-31T11:55:26.561Z",
+  "updated_at": "2026-10-31T11:56:14.741Z",
+  "review_quotes": [
+    {
+      "author": "Rishikesh Gholap",
+      "rating": 5,
+      "text": "Here's a polished and positive review you can post:\n\n> ⭐⭐⭐⭐⭐ **Excellent experience with Ekveera Furniture Mall!**\n> I am very happy with my new sofa. The quality of the sofa is excellent, the fabric and finishing are premium, and it looks exactly as expected. The delivery was on"
+    },
+    {
+      "author": "Gaurav Geet",
+      "rating": 5,
+      "text": "I had a great experience purchasing a shoe rack from this furniture shop. The quality of the product is excellent, with a sturdy build and a neat finish. It looks exactly as expected and fits perfectly in my space.\n\nThe staff were polite, interactive and helped me choose the righ"
+    },
+    {
+      "author": "Chaitanya Ghate",
+      "rating": 4,
+      "text": "Nice build quality, polite and knowledgeable staff, large variety of housing as well as office furniture, love it!"
+    }
+  ]
+}

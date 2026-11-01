@@ -1,0 +1,46 @@
+{
+  "id": "ChIJ5SQiDjjr3TsRIWE77P-oLYg",
+  "lane": "a",
+  "name": "Sagar Adgaonkar and Sons | Jewellery Shop in Nashik | Premium Gold Silver and Diamond",
+  "category": "jewellers",
+  "city": "Nashik",
+  "address": "Shop no 2, 2Q3C+Q54 shree gurudev complex, College Rd, opposite Vasant Market, corner, Canada Corner, Nashik, Maharashtra 422005",
+  "phone": "+91 77095 26666",
+  "website": null,
+  "rating": 4.8,
+  "reviews": 305,
+  "maps_url": "https://maps.google.com/?cid=9812684980243620129&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "primary_type": "jewelry_store",
+  "types": "[\"jewelry_store\",\"finance\",\"manufacturer\",\"store\",\"point_of_interest\",\"service\",\"establishment\"]",
+  "photos": [
+    "photos/1.jpg",
+    "photos/2.jpg",
+    "photos/3.jpg",
+    "photos/4.jpg",
+    "photos/5.jpg",
+    "photos/6.jpg"
+  ],
+  "status": "new",
+  "score": 94,
+  "tier": "hot",
+  "score_reason": "no website, 305 reviews, rated 4.8",
+  "found_at": "2026-10-31T11:55:25.977Z",
+  "updated_at": "2026-10-31T11:56:18.715Z",
+  "review_quotes": [
+    {
+      "author": "Nishant Torawane",
+      "rating": 5,
+      "text": "Sagar Adgaonkar and Sons is truly the best jewellery shop in Nashik. I had an excellent experience shopping here. The store offers a wide collection of premium gold, silver, and diamond jewellery with modern as well as traditional designs. If you are searching for a reliable jewe"
+    },
+    {
+      "author": "Gulabsing Rajput",
+      "rating": 5,
+      "text": "Very good service and very good staff behaviour and also gives good discount."
+    },
+    {
+      "author": "Sonali Lahane",
+      "rating": 5,
+      "text": "\"Amazing collection of gold jewellery and very polite staff. Bought a necklace set—the finish is pure and designs are unique. Transparent billing with clear hallmarking. Highly recommended!\""
+    }
+  ]
+}

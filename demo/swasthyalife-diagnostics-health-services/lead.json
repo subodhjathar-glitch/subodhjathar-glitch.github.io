@@ -1,0 +1,46 @@
+{
+  "id": "ChIJ5xVlIY7r3TsR_kzaajooJQg",
+  "lane": "a",
+  "name": "Swasthyalife Diagnostics Health Services - Main Lab",
+  "category": "diagnostic centre",
+  "city": "Nashik",
+  "address": "Survey No 624, Trambakeshwar Rd, behind Ved Mandir, Wild Orcade Society, Tidke Colony, Nashik, Maharashtra 422002",
+  "phone": "+91 253 298 2500",
+  "website": null,
+  "rating": 4.8,
+  "reviews": 1063,
+  "maps_url": "https://maps.google.com/?cid=586919557807623422&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "primary_type": "doctor",
+  "types": "[\"doctor\",\"health\",\"point_of_interest\",\"establishment\"]",
+  "photos": [
+    "photos/1.jpg",
+    "photos/2.jpg",
+    "photos/3.jpg",
+    "photos/4.jpg",
+    "photos/5.jpg",
+    "photos/6.jpg"
+  ],
+  "status": "new",
+  "score": 96,
+  "tier": "hot",
+  "score_reason": "no website, 1063 reviews, rated 4.8",
+  "found_at": "2026-10-31T11:55:20.264Z",
+  "updated_at": "2026-10-31T11:57:02.682Z",
+  "review_quotes": [
+    {
+      "author": "Harshita Joshi",
+      "rating": 5,
+      "text": "This lab and the service is really appreciative and well mannered. Reports are accurate. Clean facility, cooperative and professional staff. Got reports within 6-8 hrs. Highly recommended."
+    },
+    {
+      "author": "Vijay Dusane",
+      "rating": 5,
+      "text": "Swasthalife lab is good one\nWe are visiting here since the opening of the lab at serene meadows, gangapur road, my wife is the first patient of this lab. We are getting good services here. Timely collection and timely reports\nStaff of the lab is also helping nature and courtous w"
+    },
+    {
+      "author": "Supriya Ghumare",
+      "rating": 5,
+      "text": "Excellent service with a highly professional and hygienic environment. The staff is courteous and efficient, and the reports are accurate and delivered on time. They also provide a convenient home collection service, making the entire process hassle-free and comfortable. Their co"
+    }
+  ]
+}

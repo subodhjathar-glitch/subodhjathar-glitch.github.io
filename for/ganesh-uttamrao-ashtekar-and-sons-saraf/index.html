@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F7F5F0">
+<title>For Ganesh Uttamrao Ashtekar and Sons Saraf</title>
+<meta name="description" content="A finished website built for Ganesh Uttamrao Ashtekar and Sons Saraf, Nashik, with price and promise.">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&family=Tenor+Sans&family=Tiro+Devanagari+Marathi&family=Tiro+Devanagari+Hindi&display=swap">
+<style>
+:root{--surface:#FFFFFF;--paper:#F4F1EB;--paper2:#EBE6DD;--white:#FBF9F5;--ink:#26252A;--ink2:#3A383E;--ink3:#4A474F;--stone:#7D7873;--taupe:#B9AFA2;--hair:#DDD6CB;--hair2:#CDC4B6;--charcoal:#2C2B30;--charcoal2:#3A383E;--espresso:#5C4B3F;--madder:#5C4B3F;--madder2:#6E5B4D;--maroon:#4A3B31;--gold:#C9B58E;--gold2:#8E7A55;--brass:#A89468;--goldline:rgba(201,181,142,.5);
+--bg:var(--paper);--fg:var(--ink);--muted:var(--stone);--line:var(--hair);--accent:var(--espresso);--surface:var(--white);
+--display:'Gloock',Didot,'Times New Roman',serif;--italic:'Cormorant Garamond',Georgia,serif;--body:'Hanken Grotesk',system-ui,-apple-system,sans-serif;--label:'Tenor Sans',var(--body);--dev-mr:'Tiro Devanagari Marathi',serif;--dev-hi:'Tiro Devanagari Hindi',serif;
+--gx:max(20px,env(safe-area-inset-left,0px));--gy:max(20px,env(safe-area-inset-right,0px));--w:1180px;--ease:cubic-bezier(.77,0,.175,1);--ease2:cubic-bezier(.2,.7,.2,1);--r:18px}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.7 var(--body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--paper)}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--display);margin:0;line-height:1.04;text-wrap:balance;letter-spacing:-0.01em;font-weight:400;color:inherit}
+h1{font-size:clamp(2.5rem,6.6vw,5.4rem);line-height:1.02}
+h2{font-size:clamp(1.9rem,3.9vw,3.1rem);line-height:1.08}
+h3{font-size:1.35rem;line-height:1.25}
+em{font-family:var(--italic);font-style:italic;font-weight:600;font-size:1.08em;color:var(--espresso)}
+.dark em{color:var(--gold)}
+p{margin:0}
+.wrap{max-width:var(--w);margin:0 auto;padding-left:var(--gx);padding-right:var(--gy)}
+.eyebrow{display:flex;align-items:center;gap:14px;font-family:var(--label);font-size:.72rem;text-transform:uppercase;letter-spacing:.26em;color:var(--gold2)}
+.eyebrow::before{content:"";width:22px;height:1px;background:var(--gold2)}
+.dark .eyebrow{color:var(--gold)}
+/* header */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(244,241,235,.84);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid transparent;transition:border-color .4s}
+header.top.scrolled{border-bottom-color:var(--hair)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:16px;flex-wrap:wrap}
+header.top .btn{padding:12px 20px;font-size:.84rem;flex:0 0 auto}
+@media (max-width:420px){header.top .btn{padding:11px 15px}}
+.logo{display:flex;align-items:baseline;gap:12px;text-decoration:none;min-width:0}
+.logo b{font-family:var(--display);font-weight:400;font-size:1.5rem;letter-spacing:.005em;white-space:nowrap}
+.logo b i{font-family:var(--italic);font-style:italic;font-weight:600;color:var(--espresso);font-size:1.1em}
+.logo small{font-family:var(--label);color:var(--stone);font-size:.66rem;letter-spacing:.2em;text-transform:uppercase}
+@media (max-width:640px){.logo small{display:none}}
+nav{display:flex;gap:26px;font-size:.86rem;letter-spacing:.02em}
+nav a{text-decoration:none;color:var(--ink3);position:relative;padding-bottom:3px}
+nav a::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:1px;background:var(--gold2);transform:scaleX(0);transform-origin:right;transition:transform .5s var(--ease)}
+nav a:hover::after{transform:scaleX(1);transform-origin:left}
+@media (max-width:960px){nav{display:none}}
+/* buttons */
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:12px;padding:16px 28px;font:inherit;font-size:.92rem;font-weight:600;letter-spacing:.03em;text-decoration:none;cursor:pointer;border:1.5px solid var(--ink);color:var(--ink);background:transparent;border-radius:999px;transition:transform .35s var(--ease2),color .4s,border-color .4s,box-shadow .4s;line-height:1.2;overflow:hidden;isolation:isolate;white-space:nowrap}
+.btn::before{content:"";position:absolute;inset:0;background:var(--ink);transform:translateY(101%);transition:transform .45s var(--ease);z-index:-1}
+.btn:hover{color:var(--paper);transform:translateY(-2px)}
+.btn:hover::before{transform:translateY(0)}
+.btn.primary{background:var(--charcoal);color:var(--paper);border-color:var(--charcoal);box-shadow:0 16px 34px -20px rgba(44,43,48,.7)}
+.btn.primary::before{background:linear-gradient(135deg,#DCCBA6,var(--gold) 50%,var(--brass))}
+.btn.primary:hover{color:var(--ink);border-color:var(--gold);box-shadow:0 22px 44px -20px rgba(142,122,85,.55)}
+.btn.primary::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 35%,rgba(255,255,255,.22) 50%,transparent 65%);transform:translateX(-130%);animation:shine 6s 2s ease-in-out infinite;z-index:1;pointer-events:none}
+@keyframes shine{0%{transform:translateX(-130%)}18%{transform:translateX(130%)}100%{transform:translateX(130%)}}
+.dark .btn{border-color:var(--paper);color:var(--paper)}.dark .btn::before{background:var(--paper)}.dark .btn:hover{color:var(--ink)}
+.btn .arrow{display:inline-block;transition:transform .35s var(--ease2)}
+.btn:hover .arrow{transform:translateX(5px)}
+.btn:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,a:focus-visible,button:focus-visible{outline:2px solid var(--gold2);outline-offset:4px}
+@media (max-width:520px){.actions{flex-direction:column;align-items:stretch}.actions .btn{width:100%}}
+/* sections */
+section{position:relative;padding-block:clamp(64px,8.5vw,120px)}
+section .wrap{display:flex;flex-direction:column;gap:40px}
+section.dark{background:var(--charcoal);color:var(--paper)}
+section.dark .head p,section.dark .note{color:#BEB8AE}
+section.tint{background:var(--paper2)}
+section.tint.fee{background:var(--paper)}
+.rule{height:1px;background:linear-gradient(90deg,var(--gold2),transparent 70%);transform:scaleX(0);transform-origin:left;transition:transform 1.4s var(--ease)}
+.in .rule,.rule.in{transform:scaleX(1)}
+html:not(.js) .rule{transform:none}
+/* hero */
+.hero{padding-block:clamp(44px,7vw,100px) clamp(40px,6vw,80px);overflow:hidden}
+.hero .wrap{gap:36px;position:relative;z-index:1}
+.hero h1{max-width:15ch}
+.mask span{display:block;overflow:hidden;padding-bottom:.1em;margin-bottom:-.1em}
+.mask span i{display:block;font-style:inherit;transform:translateY(112%);animation:up 1.2s var(--ease) forwards}
+.mask span:nth-child(2) i{animation-delay:.12s}.mask span:nth-child(3) i{animation-delay:.24s}
+@keyframes up{to{transform:none}}
+.hero .below{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:40px;align-items:end;animation:fade 1.2s .5s var(--ease2) both}
+@media (max-width:860px){.hero .below{grid-template-columns:1fr;gap:26px}}
+@keyframes fade{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.hero .sub{font-size:1.2rem;line-height:1.75;color:var(--ink3);max-width:34em}
+.actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.trust{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media (max-width:520px){.trust{grid-template-columns:1fr 1fr}}
+.trust span{display:flex;flex-direction:column;gap:4px;background:var(--white);border:1px solid var(--hair);border-radius:var(--r);padding:16px 18px;font-size:.84rem;color:var(--stone);min-width:0;box-shadow:0 20px 40px -32px rgba(23,22,26,.4)}
+.trust span b{font-family:var(--display);font-size:1.9rem;color:var(--ink);font-variant-numeric:tabular-nums;line-height:1.1;font-weight:400}
+/* phones */
+.stage{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(16px,3vw,40px);align-items:end;padding-block:48px 10px;perspective:1600px;isolation:isolate}
+.hero .stage{animation:fade 1.4s .7s var(--ease2) both}
+.stage::before{content:"";position:absolute;left:50%;top:52%;width:min(92vw,760px);aspect-ratio:1;transform:translate(-50%,-50%);border-radius:50%;background:conic-gradient(from 0deg,transparent 0 60%,rgba(201,181,142,0) 60%,rgba(201,181,142,.7) 80%,rgba(220,203,166,1) 88%,transparent 100%);-webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 2px),#000 calc(100% - 2px));mask:radial-gradient(farthest-side,transparent calc(100% - 2px),#000 calc(100% - 2px));animation:spin 28s linear infinite;z-index:-1;pointer-events:none}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg)}}
+@media (max-width:760px){.stage{grid-template-columns:1fr;justify-items:center;padding-top:36px}.stage .phone.p1,.stage .phone.p3{display:none}}
+.phone{position:relative;width:min(290px,100%);aspect-ratio:9/19.2;border-radius:44px;background:#0D0D10;border:1px solid rgba(0,0,0,.35);box-shadow:0 50px 100px -40px rgba(23,22,26,.6),inset 0 0 0 7px #0D0D10;overflow:hidden;justify-self:center;transition:transform 1s var(--ease)}
+.phone iframe{position:absolute;inset:7px;width:calc(100% - 14px);height:calc(100% - 14px);border:0;border-radius:37px;background:#fff;pointer-events:none;overflow:hidden}
+.phone .cap{position:absolute;left:0;right:0;bottom:0;padding:16px;background:linear-gradient(transparent,rgba(0,0,0,.72));color:#fff;font-family:var(--label);font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;z-index:2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.phone.p1{transform:translateY(34px) scale(.94);animation:float 9s ease-in-out infinite}
+.phone.p2{animation:float 8s .8s ease-in-out infinite}
+.phone.p3{transform:translateY(54px) scale(.94);animation:float 10s 1.6s ease-in-out infinite}
+@keyframes float{50%{margin-top:-12px}}
+.badge{position:absolute;z-index:4;background:var(--white);color:var(--ink);border:1px solid var(--hair);border-radius:999px;padding:10px 16px;font-size:.82rem;font-weight:600;box-shadow:0 18px 40px -22px rgba(23,22,26,.5);display:flex;gap:8px;align-items:center;white-space:nowrap;animation:float 7s ease-in-out infinite}
+.badge .star{color:var(--gold2)}
+.badge.b1{left:3%;top:14%;animation-delay:.5s}
+.badge.b2{right:2%;top:30%;animation-delay:2s}
+.badge.b3{left:12%;bottom:8%;animation-delay:1.2s;background:var(--charcoal);color:var(--paper);border-color:var(--charcoal)}
+@media (max-width:760px){.stage{padding-top:64px}.badge.b2{display:none}.badge.b1{left:0;top:0}.badge.b3{left:auto;right:0;bottom:4%}}
+/* marquee: ink band */
+.marquee{background:var(--charcoal);color:var(--paper);padding-block:18px;overflow:hidden}
+.marquee .track{display:flex;gap:56px;width:max-content;animation:scroll 60s linear infinite;font-family:var(--label);font-size:.72rem;letter-spacing:.26em;text-transform:uppercase}
+.marquee .track span::after{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--gold);margin-left:56px;vertical-align:middle}
+@keyframes scroll{to{transform:translateX(-50%)}}
+/* content */
+.head{display:flex;flex-direction:column;gap:16px;max-width:46em}
+.head p{color:var(--ink3);font-size:1.1rem;line-height:1.75}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{position:relative;background:var(--white);border:1px solid var(--hair);border-radius:var(--r);padding:30px 28px;display:flex;flex-direction:column;gap:12px;min-width:0;box-shadow:0 24px 50px -40px rgba(23,22,26,.45);transition:transform .4s var(--ease2),box-shadow .4s}
+.card:hover{transform:translateY(-5px);box-shadow:0 34px 60px -36px rgba(23,22,26,.5)}
+.card p{color:var(--ink3);font-size:.98rem;line-height:1.7}
+.steps .card{background:var(--white);border:1px solid var(--hair)}
+.steps .card:nth-child(3){background:var(--charcoal);color:var(--paper);border-color:var(--charcoal)}
+.steps .card:nth-child(3) p{color:#C9C3B9}
+.steps .num{font-family:var(--italic);font-style:italic;font-size:2.8rem;line-height:1;color:var(--gold2);font-weight:600}
+.steps .card:nth-child(3) .num{color:var(--gold)}
+/* apps */
+.apps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.app{background:var(--white);border:1px solid var(--hair);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:10px;min-width:0;position:relative;overflow:hidden;transition:transform .4s var(--ease2),box-shadow .4s;box-shadow:0 24px 50px -40px rgba(23,22,26,.45)}
+.app{background:var(--white)}
+.app:nth-child(4){background:var(--charcoal);color:var(--paper);border-color:var(--charcoal)}
+.app:nth-child(4) p{color:#C9C3B9}.app:nth-child(4) .from{color:var(--gold)}
+.app::before{content:"";position:absolute;inset:auto -30% -40% auto;width:60%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,rgba(201,181,142,.22),transparent 70%);transition:transform .6s var(--ease2)}
+.app:hover{transform:translateY(-5px)}.app:hover::before{transform:scale(1.4)}
+.app .ico{width:42px;height:42px;border-radius:12px;background:var(--paper2);border:1px solid var(--hair2);display:grid;place-items:center;color:var(--espresso);font-family:var(--italic);font-style:italic;font-weight:600;font-size:1.3rem}
+.app p{color:var(--ink3);font-size:.95rem}
+.app .from{font-family:var(--label);font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold2);margin-top:auto}
+/* showcase */
+.show{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.show a{display:block;text-decoration:none;color:inherit;min-width:0;background:var(--white);border:1px solid var(--hair);border-radius:var(--r);padding:12px 12px 16px;box-shadow:0 24px 50px -40px rgba(23,22,26,.45);transition:transform .5s var(--ease2),box-shadow .5s}
+.show a:hover{transform:translateY(-6px);box-shadow:0 36px 60px -36px rgba(23,22,26,.55)}
+.show .frame{aspect-ratio:4/3;max-width:100%;overflow:hidden;position:relative;background:#fff;border-radius:calc(var(--r) - 6px);clip-path:inset(0 0 0 0)}
+.js .show .reveal .frame{clip-path:inset(0 100% 0 0);transition:clip-path 1.3s var(--ease)}
+.js .show .reveal.in .frame{clip-path:inset(0 0 0 0)}
+.show iframe{width:200%;height:200%;transform:scale(.5);transform-origin:0 0;border:0;pointer-events:none}
+.show .meta{padding:14px 8px 0;display:flex;justify-content:space-between;align-items:baseline;gap:12px;font-size:.92rem}
+.show .meta span{color:var(--stone)}
+.show .meta b{font-family:var(--label);font-weight:400;font-size:.7rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold2)}
+/* prices on the ink band */
+.dark .card{background:rgba(251,249,245,.04);border-color:rgba(244,241,235,.14);box-shadow:none;color:var(--paper)}
+.dark .card p{color:#C9C3B6}
+.price{gap:16px}
+.price .amt{font-family:var(--display);font-size:2.3rem;font-variant-numeric:tabular-nums;line-height:1.05;color:var(--paper)}
+.price .amt small{display:block;font-family:var(--label);font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:#B9B3A6;margin-top:6px}
+.price ul{margin:8px 0 0;padding:0;list-style:none;color:#D6D0C3;font-size:.95rem;display:flex;flex-direction:column;gap:10px}
+.price ul li{padding-left:20px;position:relative}
+.price ul li::before{content:"";position:absolute;left:0;top:.75em;width:8px;height:1px;background:var(--gold)}
+.price .for{color:#B9B3A6;font-size:.86rem}
+.price.rec{border-color:var(--gold);background:rgba(251,249,245,.06)}
+.tag{font-family:var(--label);color:var(--gold);font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;width:fit-content}
+.note{font-size:.86rem;color:var(--stone)}
+ul.plain{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;color:var(--ink3);font-size:.95rem}
+ul.plain li{padding-left:20px;position:relative}
+ul.plain li::before{content:"";position:absolute;left:0;top:.75em;width:8px;height:1px;background:var(--gold2)}
+.dark ul.plain{color:#D6D0C3}
+.trades{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.trade{background:var(--white);border:1px solid var(--hair);border-radius:var(--r);padding:26px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.trade .who{font-family:var(--label);font-size:.64rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold2)}
+.trade .prob{color:var(--ink3);font-size:.95rem;border-left:2px solid var(--hair2);padding-left:12px}
+.trade .fix{font-size:.95rem}
+.trade .fix b{font-weight:600}
+.trade .m{font-family:var(--display);font-size:1.5rem;margin-top:auto}
+.trade .m small{font-family:var(--label);font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--stone);margin-left:8px}
+.offer{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.dev,.dev h1,.dev h2,.dev h3,.dev p,.dev li,.dev .btn,.dev .eyebrow,.dev small,.dev span{font-family:var(--dev-mr)}
+.dev[lang="hi"],.dev[lang="hi"] *{font-family:var(--dev-hi)}
+.dev h1{font-size:clamp(2.2rem,5.6vw,4.4rem);line-height:1.15}.dev h2{line-height:1.3}.dev p,.dev li{line-height:1.9}
+/* try it */
+.try .lookup{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr) auto;gap:12px;align-items:center;background:var(--white);border:1px solid var(--hair);border-radius:var(--r);padding:16px}
+.try .lookup .note{grid-column:1 / -1;margin:0}
+@media (max-width:720px){.try .lookup{grid-template-columns:1fr}}
+.try input{background:var(--paper);font-size:1.05rem}
+.brief{background:var(--white);border:1px solid var(--hair);border-radius:var(--r);padding:30px;display:flex;flex-direction:column;gap:22px;box-shadow:0 30px 60px -40px rgba(38,37,42,.45)}
+.brief-head{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:flex-end}
+.brief-head h3{font-size:1.8rem;margin-top:8px}
+.brief .dim{color:var(--stone)}
+.brief-quotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.brief-quotes blockquote{margin:0;padding:14px 18px;border-left:2px solid var(--gold2);color:var(--ink3);font-family:var(--italic);font-style:italic;font-size:1.15rem}
+.brief-ai ol{margin:14px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;counter-reset:w}
+.brief-ai li{border:1px solid var(--hair);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:10px;min-width:0;background:var(--paper)}
+.brief-ai li .what{color:var(--ink);font-weight:500}
+.brief-ai .out{background:var(--charcoal);color:var(--paper);border-radius:10px;padding:12px 14px;font-size:.95rem;min-height:3.2em;font-variant-numeric:tabular-nums}
+.brief-ai .out p{white-space:pre-wrap}
+/* wonders */
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tabs button{font:inherit;font-size:.86rem;font-weight:600;padding:10px 16px;border-radius:999px;border:1px solid var(--hair2);background:transparent;color:var(--ink3);cursor:pointer;transition:all .3s}
+.tabs button[aria-selected="true"]{background:var(--charcoal);color:var(--paper);border-color:var(--charcoal)}
+.wonders{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.wonder{background:var(--white);border:1px solid var(--hair);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.wonder .what{font-weight:500;color:var(--ink)}
+.wonder .out{background:var(--charcoal);color:var(--paper);border-radius:12px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;margin-top:auto}
+.wonder .out .eyebrow{color:var(--gold)}
+.wonder .out p{font-size:.95rem;line-height:1.6}
+/* compare */
+.compare{border:1px solid var(--hair);border-radius:var(--r);background:var(--white);overflow:hidden}
+.cmp-head,.cmp-row{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr) minmax(0,1fr);gap:16px;padding:16px 22px;align-items:center}
+.cmp-head{background:var(--paper2);font-family:var(--label);font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;color:var(--stone)}
+.cmp-head .us{color:var(--ink)}
+.cmp-row{border-top:1px solid var(--hair)}
+.cmp-row .why{color:var(--stone);font-size:.92rem}
+.cmp-row .us b{font-weight:600;color:var(--ink)}
+.cmp-row .them{color:var(--stone);text-decoration:line-through;text-decoration-color:var(--hair2);text-decoration-thickness:1px}
+@media (max-width:720px){.cmp-head{display:none}.cmp-row{grid-template-columns:1fr;gap:6px;padding:16px 18px}.cmp-row .why{order:3;font-size:.86rem}.cmp-row .them::before{content:"Usually: ";font-family:var(--label);font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;text-decoration:none;display:inline-block;margin-right:6px}.cmp-row .them{text-decoration:none}}
+ul.plain.big{font-size:1.05rem;gap:12px}
+ul.plain.big li{padding-left:28px}
+ul.plain.big li::before{width:14px;top:.8em}
+.monthly{border:1px solid rgba(244,241,235,.16);border-radius:var(--r);padding:22px 26px;display:flex;flex-direction:column;gap:14px}
+.nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px}
+.nums div{min-width:0}
+.nums b{display:block;font-family:var(--display);font-size:2.2rem;color:var(--gold);font-variant-numeric:tabular-nums;line-height:1.1}
+.nums span{color:#BEB8AE;font-size:.86rem}
+.dark .card h3{color:var(--paper)}
+.pagecard{display:flex;flex-direction:column;gap:12px;text-decoration:none;color:inherit;background:var(--white);border:1px solid var(--hair);border-radius:var(--r);padding:26px;box-shadow:0 30px 60px -40px rgba(38,37,42,.45);transition:transform .4s var(--ease2)}
+.pagecard:hover{transform:translateY(-5px)}
+.pagecard h3{font-size:1.4rem}
+.pagecard .mini{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pagecard .mini div{border-top:1px solid var(--hair);padding-top:10px;min-width:0}
+.pagecard .mini b{display:block;font-family:var(--display);font-size:1.6rem;line-height:1.1;font-variant-numeric:tabular-nums}
+.pagecard .mini span{color:var(--stone);font-size:.82rem}
+nav.foot{display:flex;gap:18px;flex-wrap:wrap;font-size:.86rem}
+nav.foot a{text-decoration:none;color:#BEB8AE}
+nav.foot a:hover{color:var(--paper)}
+/* timeline */
+.timeline{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;padding-top:30px}
+.tl-line{position:absolute;left:8%;right:8%;top:50px;height:2px;background:var(--hair)}
+.tl-line i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--gold2),var(--gold));transition:width 2.2s var(--ease)}
+.timeline.in .tl-line i{width:100%}
+.tl-step{display:flex;flex-direction:column;gap:18px;align-items:center;min-width:0}
+.tl-dot{width:42px;height:42px;border-radius:50%;background:var(--charcoal);color:var(--gold);display:grid;place-items:center;font-family:var(--italic);font-style:italic;font-weight:600;font-size:1.2rem;box-shadow:0 0 0 6px var(--paper);position:relative;z-index:1;transition:transform .5s var(--ease2),background .5s}
+.tl-step:hover .tl-dot{transform:scale(1.12);background:var(--gold2);color:var(--paper)}
+.tl-card{background:var(--white);border:1px solid var(--hair);border-radius:var(--r);padding:26px;display:flex;flex-direction:column;gap:12px;width:100%;min-width:0;transition:transform .45s var(--ease2),border-color .45s,box-shadow .45s}
+.tl-step:hover .tl-card{transform:translateY(-6px);border-color:var(--gold);box-shadow:0 30px 60px -36px rgba(38,37,42,.5)}
+.tl-card p{color:var(--ink3);font-size:.98rem}
+.bubble{margin-top:6px;align-self:flex-start;background:#DCF8C6;color:#1b1b1b;border-radius:14px 14px 14px 4px;padding:10px 14px;font-size:.86rem;max-width:100%;box-shadow:0 6px 16px -10px rgba(0,0,0,.4)}
+.bubble.reply{background:#fff;border:1px solid var(--hair);border-radius:14px 14px 4px 14px;align-self:flex-end}
+.bubble.live{background:var(--charcoal);color:var(--gold);border-radius:999px;align-self:center;font-weight:600}
+@media (max-width:860px){.timeline{grid-template-columns:1fr;gap:18px;padding-top:0}.tl-line{display:none}.tl-step{flex-direction:row;align-items:flex-start}.tl-dot{flex:0 0 42px;margin-top:4px}}
+/* chips under the phones */
+.chips{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.chips span{background:var(--white);border:1px solid var(--hair);border-radius:999px;padding:9px 14px;font-size:.84rem;font-weight:600;display:inline-flex;gap:8px;align-items:center}
+.chips span.dark{background:var(--charcoal);color:var(--paper);border-color:var(--charcoal)}
+.chips .star{font-style:normal;color:var(--gold2)}
+.badge{display:none}
+.stage{padding-top:20px}
+@media (max-width:760px){.stage{padding-top:10px}}
+/* included numbering */
+#included .card .num{font-family:var(--italic);font-style:italic;font-size:1.6rem;color:var(--gold2);line-height:1}
+#included .card:hover{border-color:var(--gold)}
+/* dark section contrast */
+.dark .card p,.dark .head p,.dark .note{color:#E4DFD5}
+.price ul{color:#EDE8DF}
+.price .amt small,.price .for{color:#CFC9BE}
+.shots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding-top:16px}
+@media (max-width:760px){.shots{grid-template-columns:1fr}}
+.shot{display:block;text-decoration:none;color:inherit;background:var(--white);border:1px solid var(--hair);border-radius:var(--r);overflow:hidden;box-shadow:0 30px 60px -40px rgba(38,37,42,.5);transition:transform .5s var(--ease2),box-shadow .5s;min-width:0}
+.shot:hover{transform:translateY(-6px);box-shadow:0 40px 70px -40px rgba(38,37,42,.55)}
+.shot img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:top;display:block}
+.shot .cap{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;font-size:.88rem}
+.shot .cap i{font-style:normal;font-family:var(--label);font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold2)}
+.pricetable{background:var(--white);border:1px solid var(--hair);border-radius:var(--r);overflow:hidden}
+.pt-row{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,1fr);gap:16px;padding:18px 24px;border-top:1px solid var(--hair);align-items:center}
+.pt-head{border-top:0;background:var(--paper2);font-family:var(--label);font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--stone)}
+.pt-row b{font-weight:600;display:block}.pt-row small{color:var(--stone);font-size:.84rem}
+.pt-row .amt{font-family:var(--display);font-size:1.6rem;font-variant-numeric:tabular-nums}
+@media (max-width:600px){.pt-head{display:none}.pt-row{grid-template-columns:1fr;gap:4px}.pt-row .amt::before{content:attr(data-l);font-family:var(--label);font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--stone);display:block}}
+.options{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.option{background:var(--white);border:1px solid var(--hair);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:12px;min-width:0;box-shadow:0 24px 50px -40px rgba(38,37,42,.45)}
+.option.first{border-color:var(--gold);background:var(--charcoal);color:var(--paper)}
+.option.first .for,.option.first ul.plain{color:#D6D0C3}.option.first .amt small{color:#BEB8AE}
+.option .amt{font-family:var(--display);font-size:2rem;line-height:1.05}
+.option .amt small{display:block;font-family:var(--label);font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--stone);margin-top:6px;line-height:1.6}
+.option .for{color:var(--ink3);font-size:.95rem}
+.promise .row{position:relative}
+.promise .row .num{font-family:var(--italic);font-style:italic;font-size:1.5rem;color:var(--gold2);line-height:1}
+/* promise */
+.promise .list{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.promise .row{background:var(--white);border:1px solid var(--hair);border-top:3px solid var(--gold);border-radius:var(--r);padding:26px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.promise .row h3{font-family:var(--italic);font-style:italic;font-weight:600;color:var(--espresso);font-size:1.8rem}
+.promise .row p{color:var(--ink3);font-size:.98rem}
+/* fee */
+.langs{display:flex;gap:10px;flex-wrap:wrap}
+.langs button{font-family:var(--label);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;padding:10px 18px;border:1.5px solid var(--hair2);border-radius:999px;background:transparent;color:var(--stone);cursor:pointer;transition:all .3s}
+.langs button[aria-pressed="true"]{color:var(--paper);border-color:var(--charcoal);background:var(--charcoal)}
+.fee-card{background:var(--white);padding:34px;gap:22px;border:1px solid var(--hair)}
+.fee-card h3{font-family:var(--italic);font-style:italic;font-weight:600;font-size:1.7rem;color:var(--espresso)}
+.fee .body{font-size:1.2rem;line-height:1.75;max-width:40em;color:var(--ink)}
+.fee .body[lang="hi"]{font-family:var(--dev-hi);line-height:1.95}
+.fee .body[lang="mr"]{font-family:var(--dev-mr);line-height:1.95}
+.fee .sub-h{font-family:var(--label);font-size:.7rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold2);margin-top:6px}
+.fee .inc{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px 40px;color:var(--ink3);font-size:.95rem}
+.fee .inc li{padding-left:20px;position:relative}
+.fee .inc li::before{content:"";position:absolute;left:0;top:.75em;width:8px;height:1px;background:var(--gold2)}
+/* form */
+form.lead-form{display:flex;flex-direction:column;gap:20px;min-width:0;padding:32px;border:1px solid var(--hair);border-radius:var(--r);background:var(--white);box-shadow:0 30px 60px -40px rgba(23,22,26,.5)}
+form.lead-form h3{font-family:var(--italic);font-style:italic;font-weight:600;font-size:1.7rem;color:var(--espresso)}
+label{display:flex;flex-direction:column;gap:7px;font-family:var(--label);font-size:.66rem;color:var(--stone);letter-spacing:.22em;text-transform:uppercase}
+input,textarea,select{font:inherit;font-size:1.02rem;color:var(--ink);background:var(--paper);border:1px solid var(--hair);border-radius:10px;padding:12px 14px;width:100%;transition:border-color .3s,background .3s}
+input:focus,textarea:focus,select:focus{border-color:var(--gold2);background:#fff;outline:none}
+select{appearance:none;background:var(--paper) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8'><path d='M1 1l5 5 5-5' fill='none' stroke='%2317161A' stroke-width='1.5'/></svg>") no-repeat right 14px center}
+textarea{min-height:90px;resize:vertical}
+.voice{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.voice button{font:inherit;font-size:.86rem;font-weight:600;padding:10px 16px;border-radius:999px;border:1.5px solid var(--charcoal);background:transparent;color:var(--charcoal);cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.voice button[aria-pressed="true"]{background:var(--charcoal);color:var(--paper)}
+.voice button i{width:8px;height:8px;border-radius:50%;background:currentColor;display:inline-block}
+.voice button[aria-pressed="true"] i{animation:blink 1s infinite}
+@keyframes blink{50%{opacity:.2}}
+.voice select{width:auto;padding:8px 36px 8px 12px;font-size:.86rem}
+.done{display:none;border-left:3px solid var(--gold);background:var(--paper2);padding:12px 16px;color:var(--ink2);border-radius:0 10px 10px 0}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:48px;align-items:start}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:14px}
+.facts div{background:var(--white);border:1px solid var(--hair);border-radius:var(--r);padding:16px 18px;min-width:0}
+.facts b{display:block;font-family:var(--display);font-size:2rem;font-variant-numeric:tabular-nums;line-height:1.1}
+.facts span{color:var(--stone);font-size:.82rem}
+footer.site{background:var(--charcoal);color:#BEB8AE;padding-block:36px;font-size:.86rem}
+footer.site .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between}
+/* reveal */
+.js .reveal{opacity:0;transform:translateY(22px);transition:opacity 1s var(--ease2),transform 1s var(--ease)}
+.js .reveal.in{opacity:1;transform:none}
+.js .reveal.d1{transition-delay:.1s}.js .reveal.d2{transition-delay:.2s}.js .reveal.d3{transition-delay:.3s}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js .reveal{opacity:1;transform:none}.mask span i{transform:none}.rule{transform:none}.js .show .reveal .frame{clip-path:none}}
+</style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <a class="logo" href="/"><b>Ten<i>sprint</i></b><small>Built in days, not months.</small></a>
+  <nav><a href="/how-it-works/" >How it works</a><a href="/what-you-get/" >What you get</a><a href="/possibilities/" >Possibilities</a><a href="/price/" >Price</a><a href="/promise/" >Our promise</a><a href="/contact/" >Contact</a></nav>
+  <a class="btn primary" href="/contact/#enquire">Show me my website</a>
+</div></header>
+<section class="hero"><div class="wrap split">
+  <div class="copy">
+    <span class="eyebrow">Built for Ganesh Uttamrao Ashtekar and Sons Saraf</span>
+    <h1 class="mask"><span><i>Your website</i></span><span><i><em>is ready.</em></i></span></h1>
+    <p class="sub">Ganesh Uttamrao Ashtekar and Sons Saraf has 580 Google reviews and a 4.9 rating. Today a person who searches for you sees only a map pin. We built a complete website from your public listing. Nothing was paid, nothing is owed.</p>
+    <div class="facts">
+      <div><b>4.9</b><span>Google rating</span></div>
+      <div><b>580</b><span>reviews, unseen by searchers</span></div>
+      <div><b>2</b><span>to go live on your own domain</span></div>
+    </div>
+    <div class="actions"><a class="btn primary" href="/demo/ganesh-uttamrao-ashtekar-and-sons-saraf/" target="_blank" rel="noopener">Open the website</a><a class="btn" href="#enquire">Yes, make it live</a></div>
+  </div>
+  <div class="stage one"><div class="phone p2"><iframe src="/demo/ganesh-uttamrao-ashtekar-and-sons-saraf/" title="Ganesh Uttamrao Ashtekar and Sons Saraf" loading="lazy"></iframe><div class="cap">Ganesh Uttamrao Ashtekar and Sons Saraf</div></div></div>
+</div></section>
+
+<section id="prices" class="dark"><div class="wrap">
+  <div class="head reveal"><span class="eyebrow">Your price</span><h2>₹30,000. Everything included. <em>Half now, half when it is live.</em></h2><p>₹30,000 is the whole website: your own web address in your name, kept online for a year, your business on Google Maps corrected, a WhatsApp button, your photos and reviews, and changes the same day. Nothing billed later by anyone. If it is not live within seven days of your payment, you get all of it back.</p></div>
+  <div class="grid">
+    <div class="card price rec reveal"><span class="tag">Step one</span><h3>Your website</h3><div class="amt">₹30,000<small>once, everything included</small></div><ul><li>Your own web address, if it is free</li><li>A website that looks expensive</li><li>Six pages, written for you</li><li>Your business on Google Maps, corrected</li><li>WhatsApp on every page</li><li>Kept online, safely</li><li>Changes the same day</li></ul></div>
+    <div class="card price reveal d1"><span class="tag">After the first year</span><h3>Yours to keep</h3><div class="amt">₹1,500<small>a month from the second year, or take it anywhere</small></div><ul><li>Kept online and safe</li><li>Change anything, any day, yourself or on WhatsApp</li><li>Stop whenever you like; the website and the web address stay yours</li></ul></div>
+  </div>
+</div></section>
+
+<section class="promise" id="promise"><div class="wrap">
+  <div class="head reveal"><span class="eyebrow">Our promise</span><h2>What you pay. What you own. <em>What we run.</em></h2></div>
+  <div class="list"><div class="row reveal d0"><h3>You see it before you pay</h3><p>Your website is built first. You open it, you judge it. If you do not like it, you owe nothing and nobody asks why.</p></div><div class="row reveal d1"><h3>Live within seven days, or your money back</h3><p>Once you pay, your website is live on your own web address within seven days. If it is not, you get all of it back.</p></div><div class="row reveal d2"><h3>Everything in your name</h3><p>Your web address, your Google Maps page, your WhatsApp number. Registered to you, never to us.</p></div><div class="row reveal d3"><h3>One bill, from one place</h3><p>Nobody else will ever send you a bill for any of this. No hosting company, no domain company, no designer.</p></div><div class="row reveal d3"><h3>Changes the same day</h3><p>A price, a photo, a timing. Change it yourself in your own page, or send a WhatsApp. Done the same day, without a charge.</p></div><div class="row reveal d3"><h3>A person answers</h3><p>Questions go to a person on WhatsApp, answered within working hours, in plain words. No ticket numbers.</p></div><div class="row reveal d3"><h3>Leave any time, with everything</h3><p>Stop whenever you like. The website and the web address go with you. We hand over the login the same day.</p></div></div>
+</div></section>
+
+<section id="fee" class="fee"><div class="wrap">
+  <div class="head reveal"><span class="eyebrow">What ₹30,000 includes</span><h2>Everything. <em>Nothing</em> billed by anyone else.</h2></div>
+  <div class="grid"><div class="card reveal d0"><h3>Your own web address, if it is free</h3><p>Like yourbusiness.in. If that exact name is taken, we find the closest one with you. Registered in your name. The first year is paid.</p></div><div class="card reveal d1"><h3>A website that looks expensive</h3><p>Made for your kind of business, not copied from a template. Your photos. Your best reviews on the front page.</p></div><div class="card reveal d2"><h3>Six pages, written for you</h3><p>Home. About you. What you offer. Photos. Reviews. Contact. Written in plain words, every page filled.</p></div><div class="card reveal d3"><h3>Your business on Google Maps, corrected</h3><p>Timings, phone, photos, and the link to your new website. So the map pin finally leads somewhere.</p></div><div class="card reveal d0"><h3>WhatsApp on every page</h3><p>One tap, and the customer is messaging you.</p></div><div class="card reveal d1"><h3>Kept online, safely</h3><p>Your website stays up day and night, with the lock sign in the browser. The first year is included.</p></div><div class="card reveal d2"><h3>Changes the same day</h3><p>A price, a photo, a timing. Change it yourself in your own page, or send us a WhatsApp.</p></div></div>
+</div></section>
+
+<section id="next" class="tint"><div class="wrap">
+  <div class="two">
+    <div class="head reveal"><span class="eyebrow">Next step</span><h2>Say yes, <em>or ask us anything.</em></h2><p>Reply on WhatsApp. We change any photo or line in a day. Say yes and we register ganeshuttamraoashtekarandsonssaraf.in or any name you prefer, in your name, the site goes live within two days of payment, and your WhatsApp starts answering the same week.</p>
+      <div class="actions" style="margin-top:8px"><a class="btn primary" href="#enquire">Yes, make it live</a><a class="btn" href="#enquire">Call me</a></div>
+    </div>
+    
+<form id="enquire" class="lead-form reveal" novalidate>
+  <h3>Or leave your number</h3>
+  <label>Business name<input id="biz" name="business" type="text" required value="Ganesh Uttamrao Ashtekar and Sons Saraf" autocomplete="organization" placeholder="As it appears on Google"></label>
+  <label>City<input id="ct" name="city" type="text" value="Nashik" placeholder="Nashik"></label>
+  <label>Your WhatsApp number<input id="ph" name="phone" type="tel" inputmode="tel" required placeholder="98xxxxxxxx" autocomplete="tel"></label>
+  <input type="hidden" id="nm" name="name" value="">
+  <button class="btn primary" type="submit">Show me my website</button>
+  <p class="note">Subodh calls you back within working hours. Nothing to pay to see it.</p>
+  <div class="done" id="done">Thank you. Your website link comes on WhatsApp within two days.</div>
+</form>
+<script>
+(function(){var f=document.getElementById('enquire');f.addEventListener('submit',function(e){e.preventDefault();
+var d={};new FormData(f).forEach(function(v,k){d[k]=v});d.page=location.pathname;d.name=d.name||d.business;
+if(!d.business||!d.phone){f.reportValidity();return;}
+var btn=f.querySelector('button');btn.disabled=true;btn.textContent='Sending…';
+var ep=(location.hostname.indexOf('github.io')>-1||location.hostname==='tensprint.in'||location.hostname==='www.tensprint.in')&&!window.__api?'https://formsubmit.co/ajax/subodh.jathar@gmail.com':'/api/enquire';
+var body=JSON.stringify(ep.indexOf('formsubmit')>-1?{_subject:'Tensprint enquiry: '+d.business,business:d.business,city:d.city,phone:d.phone,page:d.page,_template:'table'}:d);
+fetch(ep,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:body})
+.then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(){document.getElementById('done').style.display='block';btn.textContent='Sent';})
+.catch(function(){document.getElementById('done').textContent='Could not send just now. Please WhatsApp us instead.';document.getElementById('done').style.display='block';btn.disabled=false;btn.textContent='Show me my website';});});})();
+</script>
+  </div>
+</div></section>
+<footer class="site"><div class="wrap">
+  <span>Tensprint, Nashik.</span>
+  <nav class="foot"><a href="/how-it-works/">How it works</a><a href="/what-you-get/">What you get</a><a href="/possibilities/">Possibilities</a><a href="/price/">Price</a><a href="/promise/">Our promise</a><a href="/contact/">Contact</a><a href="/your-page/">Sample client page</a></nav>
+  <span>hello@tensprint.in</span>
+</div></footer>
+<script>
+(function(){var d=document.documentElement;d.classList.add('js');
+var io='IntersectionObserver' in window?new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{rootMargin:'0px 0px -10% 0px'}):null;
+document.querySelectorAll('.reveal,.rule').forEach(function(el){io?io.observe(el):el.classList.add('in');});
+var h=document.querySelector('header.top');function sc(){if(h)h.classList.toggle('scrolled',window.scrollY>8);}sc();addEventListener('scroll',sc,{passive:true});
+var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+document.querySelectorAll('[data-count]').forEach(function(el){var n=+el.dataset.count;if(reduce||!n)return;var t0=null;function step(t){if(!t0)t0=t;var p=Math.min(1,(t-t0)/1400);el.textContent=Math.round(n*(1-Math.pow(1-p,3))).toLocaleString('en-IN');if(p<1)requestAnimationFrame(step);}var o=new IntersectionObserver(function(es){if(es[0].isIntersecting){requestAnimationFrame(step);o.disconnect();}});o.observe(el);});
+var W={"clinic":{"label":"Doctors, clinics, labs","match":"hospital|clinic|diagnos|lab|physio|dental|eye|skin|doctor|path","items":[{"t":"A patient sends a photo of their report. AI drafts a simple Marathi explanation; the doctor approves it before it is sent.","out":"तुमची साखर (HbA1c) ७.८ आहे. साधारण ५.७ च्या खाली हवी. घाबरू नका, डॉक्टरांना भेटा आणि गोड कमी करा. पुढची तपासणी ३ महिन्यांनी."},{"t":"The doctor speaks the prescription. AI writes it out for the doctor to check and sign, with instructions the patient understands.","out":"Tab. Metformin 500 mg, after dinner, 30 days. Walk 30 minutes daily. Next visit: 3 Dec. Call if dizzy."},{"t":"Every patient due for a follow-up gets a reminder, in their language, without anyone remembering.","out":"42 patients due this week. 42 reminded. 29 booked."},{"t":"At 11 pm a patient asks on WhatsApp if a test needs fasting. They get the right answer in ten seconds.","out":"\"Lipid profile साठी १२ तास उपाशी राहा. सकाळी ७ ते १० वाजेपर्यंत या. पाणी चालेल.\""}]},"retail":{"label":"Jewellers and shops","match":"jewel|saraf|sona|gold|furniture|showroom|shop|store|car |electronics|saree|cloth","items":[{"t":"Today's rate becomes a beautiful post and a WhatsApp status at 10 am, every day, by itself.","out":"आजचा भाव · सोने 24K ₹7,420/g · 22K ₹6,802/g · चांदी ₹92/g · Bhandari Jewels, Nashik"},{"t":"A customer sends a photo of an old necklace. AI suggests three new designs in that style, and asks them to bring it in for weighing.","out":"Lovely antique work. Three designs in the same style attached. Bring it in any day before 8 pm and we will weigh it and tell you the exchange value on the spot."},{"t":"AI remembers every customer: anniversary, Diwali, daughter’s wedding year. A personal message goes at the right time.","out":"\"Namaskar Mrs Deshpande, your anniversary is on the 14th. We kept aside two designs you looked at in August.\""},{"t":"The scheme book runs itself: monthly reminders, receipts, maturity dates.","out":"116 scheme customers. 9 due this week. 9 reminded. 7 paid."}]},"education":{"label":"Classes and schools","match":"school|college|coaching|class|academy|institute|tuition|upsc|mpsc|neet|jee","items":[{"t":"Every student gets ten practice questions a day on the topic they got wrong, made from the class’s own notes.","out":"Aarav, 10th: 3 wrong in Trigonometry yesterday. Today: 10 questions on identities. Done in 12 minutes. 8 correct."},{"t":"A parent gets a one-line weekly note. No calls, no PTA chaos.","out":"\"Sakshi attended 5 of 6 classes. Weak: Organic chemistry. Strong: Physics. Next test: Monday.\""},{"t":"Doubts at night are answered from the teacher’s own material, in the student’s language.","out":"11:40 pm: \"Sir, Ohm’s law example 3?\" Answered in 20 seconds, with the working."},{"t":"Admission season: every enquiry answered, every visit booked, fees reminded, without a receptionist.","out":"312 enquiries in June. 312 answered. 140 visits booked. 61 admissions."}]},"venue":{"label":"Halls, lawns, hotels","match":"banquet|lawn|resort|hotel|hall|mangal|karyalay|garden|venue","items":[{"t":"A couple sends their theme and guest count. In two minutes they get a quote and a picture of the decor.","out":"Reception, 14 Dec, 450 guests, pastel theme: ₹8,10,000 all inclusive. Picture attached. Date available."},{"t":"Every enquiry is followed up three times, politely, on its own. Nobody is forgotten.","out":"38 enquiries in October. 11 booked. 19 said later. 8 went quiet. All followed up."},{"t":"The day after an event, guests get the photo album link and a request for a review.","out":"4.4 → 4.6 on Google in three months. 61 new reviews."},{"t":"Vendors, menu, timings: one checklist that runs itself and nudges whoever is late.","out":"Caterer confirmed. Decor confirmed. DJ: no reply, reminded again at 5 pm."}]},"property":{"label":"Builders and designers","match":"builder|developer|construct|interior|architect|realty|estate|homes","items":[{"t":"A buyer sends their budget and family size. AI replies with the right flats, prices and an EMI figure.","out":"2 BHK, 3rd floor, east facing: ₹58 lakh. EMI about ₹41,000 for 20 years. Site visit Sunday 11 am?"},{"t":"From your floor plan, AI makes a short walkthrough video the buyer watches on WhatsApp.","out":"42-second walkthrough, 2 BHK, delivered to 27 buyers this week."},{"t":"Every lead is followed up for 30 days with something useful each time, not \"any update sir\".","out":"Day 3: price sheet. Day 7: progress photos. Day 14: bank tie-ups. Day 30: last two units."},{"t":"Monthly construction update photos go to every buyer who booked. Trust, without calls.","out":"\"8th slab done. Plaster on 3rd floor. Possession on track for June.\""}]},"industry":{"label":"Factories and workshops","match":"manufactur|engineering|industr|works|chemical|pharma|packaging|fabricat|textile|electrical|auto|component|plastic|steel","items":[{"t":"A dealer sends a voice note order. AI turns it into an order sheet and a quotation PDF.","out":"Order #1182, Patil Traders: 500 brackets M-12, 200 clamps 40 mm. Quote ₹1,46,000. PDF sent. Delivery 6 days."},{"t":"A buyer sends a drawing. AI reads it and gives a first quote within the hour.","out":"MS bracket, 3 mm, laser cut and bend, 1,000 pieces: ₹38 to ₹42 each. Final after sample."},{"t":"Export enquiry in English answered in clean English, with your catalogue, while you sleep.","out":"Reply to Germany sent 2:14 am. Catalogue attached. Follow-up set for Thursday."},{"t":"Payments and dispatches followed up on their own. Your outstanding comes down.","out":"Outstanding ₹22.4 lakh → ₹14.1 lakh in 60 days. 31 reminders sent."}]},"professional":{"label":"CA, law, consultants","match":"chartered|account|law|advocate|legal|consult|tax|audit","items":[{"t":"Clients photograph documents on WhatsApp. AI names them, files them, tells them what is missing.","out":"\"Received: Form 16, bank statement. Missing: rent receipts, 80C proofs. Send by Friday.\""},{"t":"Every deadline for every client, reminded on time, without a junior chasing.","out":"GST returns due 20th: 48 clients. 48 reminded. 41 submitted data. 7 reminded again."},{"t":"Routine questions answered from your own notes, so your phone stops ringing for the same thing.","out":"\"Can I claim HRA if I live with parents?\" Answered in your words, with the condition."},{"t":"A monthly one-page summary to every retainer client. They feel looked after. They stay.","out":"\"October: 3 filings done, 1 notice replied, next due 7 Nov.\""}]}};var S=[{"name":"Sai Hi-Tech Diagnostic Centre","rating":4.8,"reviews":4411,"type":"diagnostic centre","website":null,"address":"G-8/9, Ground Floor, Nxt to, Suyojit City Centre, Police Sation, Old Agra Rd, opp. Saheba Hotel, Mumbai Naka, Renuka Nagar, Nashik, Maharashtra 422002","quotes":[".\n\nRadiologists-Highly qualified and experienced. Provide accurate interpretations and ensure diagnostic precision for a imaging tests.\n\nMRI/CT/X-ray Technician","Excellent Service and Reliable Reports!\n\nI had a very good experience at Sai Hi-Tech Diagnostic Centre. The staff is very polite, cooperative, and professional.","Good and best service the staff is very friendly thank you minakshi nidhi tanvi kushi Ashwini mam"],"slug":"sai-hi-tech-diagnostic-centre"},{"name":"Bhandari Jewels","rating":4.8,"reviews":678,"type":"jewellers","website":null,"address":"4-7 Datta Mandir Signal, DattaMandir, Nashik Road, Nashik, Maharashtra 422101","quotes":["We always had good experience at bhandari jwellers. The owner as well as the staff are very very friendly & welcoming. One feels very comfortable in the environ","It was great experience.Thank You","Very nice service\nAnd staff behavior is also very polite"],"slug":"bhandari-jewels"},{"name":"Dhanlaxmi lawns banquet hall","rating":4.5,"reviews":1658,"type":"banquet hall","website":null,"address":"Aurangabad Rd, opp. Nilgiri Garden, Kailas Nagar, Panchavati, Nashik, Maharashtra 422003","quotes":["The staff is very supportive and cooperative. They adjusted everything according to our requirements. The food quality was excellent, and the taste was absolute","Good for marriage and with in low cost budget...\nVehicle parking space available\nAttached photo will give you information about hall and phone number","Exceptional Banquet Hall – A Perfect Wedding Destination!\nI had my sister's wedding planned here on 10 th Feb at the AC banquet.I would highly recommend this ba"],"slug":"dhanlaxmi-lawns-banquet-hall"}];
+function trade(t){for(var k in W){if(new RegExp(W[k].match,'i').test(t))return k;}return 'clinic';}
+function esc(x){return String(x||'').replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]})}
+function showBrief(d){var k=trade(d.type+' '+d.name);var b=document.getElementById('brief');b.hidden=false;
+document.getElementById('b-name').textContent=d.name;
+document.getElementById('b-facts').textContent=(d.rating?d.rating+' stars · ':'')+(d.reviews?Number(d.reviews).toLocaleString('en-IN')+' Google reviews · ':'')+(d.website?'has a website':'no website yet')+(d.address?' · '+d.address.split(',').slice(0,2).join(','):'');
+document.getElementById('b-quotes').innerHTML=(d.quotes||[]).slice(0,2).map(function(q){return '<blockquote>“'+esc(q)+'”</blockquote>'}).join('');
+var ol=document.getElementById('b-items');ol.innerHTML='';W[k].items.forEach(function(it,i){var li=document.createElement('li');li.innerHTML='<p class="what">'+esc(it.t.replace(/the class’s|your/g,function(m){return m}))+'</p><div class="out"><p></p></div>';ol.appendChild(li);var p=li.querySelector('.out p');var txt=it.out;var j=0;setTimeout(function tick(){p.textContent=txt.slice(0,j);j+=2;if(j<=txt.length+1)setTimeout(tick,18);},i*700);});
+document.getElementById('b-cta').addEventListener('click',function(){var biz=document.getElementById('biz');if(biz)biz.value=d.name;});
+b.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});}
+var lf=document.getElementById('lookup');if(lf){lf.addEventListener('submit',function(e){e.preventDefault();var q=document.getElementById('q').value.trim(),c=document.getElementById('qc').value.trim();if(q.length<3){lf.reportValidity();return;}
+var local=S.find(function(x){return x.name.toLowerCase().indexOf(q.toLowerCase())>-1||q.toLowerCase().indexOf(x.name.toLowerCase().split(' ')[0])>-1});
+var btn=lf.querySelector('button');btn.disabled=true;btn.textContent='Looking…';
+var done=function(d){btn.disabled=false;btn.textContent='Show me';showBrief(d);};
+if(location.protocol==='https:'&&!location.hostname.endsWith('claude.ai')){fetch('/api/lookup?name='+encodeURIComponent(q)+'&city='+encodeURIComponent(c)).then(function(r){return r.json()}).then(function(d){if(d.ok)done(d);else done(local||{name:q,type:q,quotes:[]});}).catch(function(){done(local||{name:q,type:q,quotes:[]});});}
+else done(local||{name:q,type:q,quotes:[]});});}
+document.querySelectorAll('.tabs [role=tab]').forEach(function(t){t.addEventListener('click',function(){document.querySelectorAll('.tabs [role=tab]').forEach(function(x){x.setAttribute('aria-selected',String(x===t))});document.querySelectorAll('.wonders').forEach(function(p){p.hidden=p.dataset.panel!==t.dataset.tab;p.querySelectorAll('.reveal').forEach(function(r){r.classList.add('in')});});});});
+if(!reduce&&matchMedia('(pointer:fine)').matches){document.querySelectorAll('.stage').forEach(function(stage){var phones=stage.querySelectorAll('.phone');stage.addEventListener('mousemove',function(e){var r=stage.getBoundingClientRect();var x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;phones.forEach(function(p,i){p.style.setProperty('--tx',(x*(i-1+1)*6)+'px');p.style.transform='translate('+(x*(10+i*4))+'px,'+(y*10)+'px) rotateY('+(x*6)+'deg)';});});stage.addEventListener('mouseleave',function(){phones.forEach(function(p){p.style.transform='';});});});}
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "id": "ChIJGyHGohrr3TsRPCvHyWIHUEw",
+  "lane": "a",
+  "name": "Sai Hi-Tech Diagnostic Centre",
+  "category": "diagnostic centre",
+  "city": "Nashik",
+  "address": "G-8/9, Ground Floor, Nxt to, Suyojit City Centre, Police Sation, Old Agra Rd, opp. Saheba Hotel, Mumbai Naka, Renuka Nagar, Nashik, Maharashtra 422002",
+  "phone": "+91 93596 35478",
+  "website": null,
+  "rating": 4.8,
+  "reviews": 4411,
+  "maps_url": "https://maps.google.com/?cid=5498903265892838204&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  "primary_type": "medical_clinic",
+  "types": "[\"hospital\",\"medical_clinic\",\"doctor\",\"health\",\"point_of_interest\",\"service\",\"establishment\"]",
+  "photos": [
+    "photos/1.jpg",
+    "photos/2.jpg",
+    "photos/3.jpg",
+    "photos/4.jpg",
+    "photos/5.jpg",
+    "photos/6.jpg"
+  ],
+  "status": "new",
+  "score": 96,
+  "tier": "hot",
+  "score_reason": "no website, 4411 reviews, rated 4.8",
+  "found_at": "2026-10-31T11:55:20.258Z",
+  "updated_at": "2026-10-31T11:56:01.875Z",
+  "review_quotes": [
+    {
+      "author": "Bhaskar Thkara",
+      "rating": 5,
+      "text": ".\n\nRadiologists-Highly qualified and experienced. Provide accurate interpretations and ensure diagnostic precision for a imaging tests.\n\nMRI/CT/X-ray Technicians-Skilled and professional. They handle machines confidently and guide patients with care during procedures."
+    },
+    {
+      "author": "Harshal Shewale",
+      "rating": 5,
+      "text": "Excellent Service and Reliable Reports!\n\nI had a very good experience at Sai Hi-Tech Diagnostic Centre. The staff is very polite, cooperative, and professional. The centre is clean and well-maintained."
+    },
+    {
+      "author": "Dnyneshvar Jadhav",
+      "rating": 5,
+      "text": "Good and best service the staff is very friendly thank you minakshi nidhi tanvi kushi Ashwini mam"
+    }
+  ]
+}
